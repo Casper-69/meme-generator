@@ -19,6 +19,12 @@ A chaotic lil tool to create and download your own memes — drag text, choose t
 - Canvas API
 - Font Awesome for icons
 - Hosted with ❤️ on [GitHub Pages](https://pages.github.com)
+- 
+[![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-orange?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Made with JS](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Made with CSS](https://img.shields.io/badge/Made%20with-CSS-blue?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://casper-69.github.io/meme-generator/)
+
 
 ---
 
@@ -34,9 +40,4 @@ A chaotic lil tool to create and download your own memes — drag text, choose t
 ## 🤸‍♀️ Screenshot
 ![[meme-genenrator-image.png](https://postimg.cc/K1WTjd71)](https://i.postimg.cc/rpVNnTKN/meme-genenrator-image.png)
 
-
-[![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-orange?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Made with JS](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Made with CSS](https://img.shields.io/badge/Made%20with-CSS-blue?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://casper-69.github.io/meme-generator/)
 
