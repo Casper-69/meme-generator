@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+    color: white;
+    max-width: 100%;
+    margin: 0 auto;
+}
+  
+input, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+  
+canvas {
+    margin-top: 20px;
+    border: 2px solid white;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+/* #presetMemes img {
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+  } */
+
+#presetMemes {
+    display: flex;
+    overflow-x: scroll;
+    gap: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%;
+    background: #2e2e2e;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    min-height: 120px;
+}
+
+/* Make sure images don't shrink */
+#presetMemes img {
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: grab;
+    flex: 0 0 auto;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#presetMemes img:hover {
+    transform: scale(1.05);
+    border-color: #4CAF50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#presetMemes:active {
+    cursor: grabbing;
+}
+
+/* Scrollbar Styles */
+#presetMemes::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+#presetMemes::-webkit-scrollbar-track {
+    background: #1e1e1e;
+    border-radius: 4px;
+}
+
+#presetMemes::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+    border: 2px solid #1e1e1e;
+}
+
+#presetMemes::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Firefox scrollbar */
+#presetMemes {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #1e1e1e;
+}
+
+/* Add fade effect to indicate more content */
+#presetMemes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(to right, transparent, #2e2e2e);
+    pointer-events: none;
+}
+
+#shareButtons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+canvas:active {
+    cursor: grabbing;
+}  

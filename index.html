@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <h1>👾😪 Meme Generator 👻🐱</h1>
+  <input type="file" id="imageInput" accept="image/*" />
+  <input type="text" id="topText" placeholder="Top Text" />
+  <input type="text" id="bottomText" placeholder="Bottom Text" />
+  <button onclick="generateMeme()">Generate Meme</button>
+  <button onclick="downloadMeme()">Download Meme</button>
+  
+  <div id="presetMemes">
+    <img src="https://i.imgflip.com/1bij.jpg" onclick="loadPreset(this.src)" />
+    <img src="https://i.imgflip.com/26am.jpg" onclick="loadPreset(this.src)" />
+  </div>  
+  
+  <canvas id="memeCanvas" width="500" height="500"></canvas>
+
+  <div id="shareButtons">
+    <a id="shareTwitter" target="_blank"><i class="fab fa-twitter"></i> Share on Twitter</a>
+    <a id="shareWhatsApp" target="_blank"><i class="fab fa-whatsapp"></i> Share on WhatsApp</a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
