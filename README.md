@@ -19,7 +19,7 @@ A chaotic lil tool to create and download your own memes — drag text, choose t
 - Canvas API
 - Font Awesome for icons
 - Hosted with ❤️ on [GitHub Pages](https://pages.github.com)
-- 
+  
 [![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-orange?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![Made with JS](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Made with CSS](https://img.shields.io/badge/Made%20with-CSS-blue?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
